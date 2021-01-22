@@ -1,0 +1,8 @@
+# Pontos de entrada daAPI!
+type Query {
+    
+    filtro(name: String):[UsuarioList]
+    usuarios: [UsuarioList]
+    usuario(id: ID): Usuario
+
+}

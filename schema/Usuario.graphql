@@ -1,0 +1,32 @@
+type UsuarioList {
+    _id: ID
+    name: String!
+    age: String!
+    eyeColor: String
+    company: String
+    email: String
+    greeting: String
+    picture:String   
+}
+
+type Usuario {
+    _id: ID
+    name: String!
+    age: String!
+    eyeColor: String
+    company: String
+    email: String
+    greeting: String
+    picture:String
+    friends:[Friends]   
+}
+
+type Friends {
+    _id: ID
+    name: String!
+    age: String!
+    eyeColor: String
+    company: String
+    email: String
+    picture:String    
+}
